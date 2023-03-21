@@ -1324,6 +1324,18 @@
         <Class IRI="http://purl.obolibrary.org/obo/ido.owl/IDO_0001157"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/VIDO_0001355"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/VIDO_0001356"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/VIDO_0001357"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/VIDO_0001358"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.ebi.ac.uk/efo/EFO_0000684"/>
     </Declaration>
     <Declaration>
@@ -5865,6 +5877,22 @@
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/ido.owl/IDO_0001130"/>
         <Class abbreviatedIRI="obo:IDO_0001096"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/VIDO_0001355"/>
+        <Class abbreviatedIRI="obo:IDO_0001000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/VIDO_0001356"/>
+        <Class abbreviatedIRI="obo:IDO_0001001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/VIDO_0001357"/>
+        <Class abbreviatedIRI="obo:IDO_0001002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/VIDO_0001358"/>
+        <Class abbreviatedIRI="obo:BFO_0000038"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.ebi.ac.uk/efo/EFO_0000684"/>
@@ -16613,7 +16641,7 @@ This should be pushed to an upper-level ontology.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IDO_0001000</AbbreviatedIRI>
-        <Literal>infection incidence profile</Literal>
+        <Literal>infectious disease incidence profile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -16628,7 +16656,7 @@ This should be pushed to an upper-level ontology.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IDO_0001001</AbbreviatedIRI>
-        <Literal>infection incidence proportion profile</Literal>
+        <Literal>infectious disease incidence proportion profile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -16643,7 +16671,7 @@ This should be pushed to an upper-level ontology.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IDO_0001002</AbbreviatedIRI>
-        <Literal>infection incidence rate profile</Literal>
+        <Literal>infectious disease incidence rate profile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -20610,6 +20638,46 @@ binary, and takes no temporal argument.
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/ido.owl/IDO_0001157</IRI>
         <Literal xml:lang="en">infectious disposition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>/VIDO_0001355</IRI>
+        <Literal>Infectious disease incidence profile comprised of a series of determinate viral disease incidence qualities caused by a specific virus in a population over time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/VIDO_0001355</IRI>
+        <Literal xml:lang="en">viral disease incidence profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>/VIDO_0001356</IRI>
+        <Literal>Infectious disease incidence proportion profile comprised of a series of viral disease incidence proportion qualities caused by a specific virus per unit time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/VIDO_0001356</IRI>
+        <Literal xml:lang="en">viral disease incidence proportion profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>/VIDO_0001357</IRI>
+        <Literal>Infectious disease incidence rate profile comprised of a series of viral disease rate qualities caused by a specific virus per unit time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/VIDO_0001357</IRI>
+        <Literal xml:lang="en">viral disease incidence rate profile</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>/VIDO_0001358</IRI>
+        <Literal>One-dimensional temporal region on which a virus is no longer replicating but remains within a host cell and which may be reactivated to begin replication again.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/VIDO_0001358</IRI>
+        <Literal xml:lang="en">viral dormancy interval</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
