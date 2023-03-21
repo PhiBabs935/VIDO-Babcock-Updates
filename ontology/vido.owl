@@ -1336,6 +1336,9 @@
         <Class IRI="/VIDO_0001358"/>
     </Declaration>
     <Declaration>
+        <Class IRI="/VIDO_0001359"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://www.ebi.ac.uk/efo/EFO_0000684"/>
     </Declaration>
     <Declaration>
@@ -5202,7 +5205,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:IDO_0001088"/>
-        <Class abbreviatedIRI="obo:BFO_0000030"/>
+        <Class IRI="/VIDO_0001359"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:IDO_0001088"/>
@@ -5301,7 +5304,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:IDO_0001343"/>
-        <Class abbreviatedIRI="obo:BFO_0000038"/>
+        <Class abbreviatedIRI="obo:BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:IDO_0001343"/>
@@ -5825,7 +5828,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:VIDO_0001365"/>
-        <Class abbreviatedIRI="obo:BFO_0000038"/>
+        <Class abbreviatedIRI="obo:BFO_0000015"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:VIDO_0001365"/>
@@ -5893,6 +5896,10 @@
     <SubClassOf>
         <Class IRI="/VIDO_0001358"/>
         <Class abbreviatedIRI="obo:BFO_0000038"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/VIDO_0001359"/>
+        <Class abbreviatedIRI="obo:BFO_0000030"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://www.ebi.ac.uk/efo/EFO_0000684"/>
@@ -17066,7 +17073,7 @@ This should be pushed to an upper-level ontology.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0001088</AbbreviatedIRI>
-        <Literal>Object that is an arrangement of interrelated acellular parts forming a biological unit.</Literal>
+        <Literal>Self-replicating organic structure comprised of acellular organic parts.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
@@ -17081,7 +17088,7 @@ This should be pushed to an upper-level ontology.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IDO_0001088</AbbreviatedIRI>
-        <Literal xml:lang="en">acellular structure</Literal>
+        <Literal xml:lang="en">acellular self-replicating organic structure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -17641,7 +17648,7 @@ This should be pushed to an upper-level ontology.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0001343</AbbreviatedIRI>
-        <Literal>One-dimensional temporal region beginning with the establishing of an infection in a host and ending when the host becomes contagious.</Literal>
+        <Literal>Process beginning with the establishing of an infection in a host and ending when the host becomes contagious, during which pathogens are multiplying in the host.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
@@ -17656,7 +17663,7 @@ This should be pushed to an upper-level ontology.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:IDO_0001343</AbbreviatedIRI>
-        <Literal xml:lang="en">latency interval</Literal>
+        <Literal xml:lang="en">latency process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -20375,9 +20382,9 @@ binary, and takes no temporal argument.
         <Literal xml:lang="en">disordered prion</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:VIDO_0001365</AbbreviatedIRI>
-        <Literal>One-dimensional temporal region beginning with the establishment of a virus in a host and ending with the first appearance of a virion following viral release.</Literal>
+        <Literal>Process beginning with the establishment of a virus in a host and ending with the first appearance of a virion following viral release, during which an infecting virus is uncoating to begin genome replication.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
@@ -20392,7 +20399,7 @@ binary, and takes no temporal argument.
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:VIDO_0001365</AbbreviatedIRI>
-        <Literal xml:lang="en">eclipse interval</Literal>
+        <Literal xml:lang="en">eclipse process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -20678,6 +20685,16 @@ binary, and takes no temporal argument.
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>/VIDO_0001358</IRI>
         <Literal xml:lang="en">viral dormancy interval</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <IRI>/VIDO_0001359</IRI>
+        <Literal>Object consisting of an organic structure that is able to initiate replication of its structure in a host.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/VIDO_0001359</IRI>
+        <Literal xml:lang="en">self-replicating organic structure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
