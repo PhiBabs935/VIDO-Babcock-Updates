@@ -7,7 +7,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://purl.obolibrary.org/obo/vido.owl"
      versionIRI="http://purl.obolibrary.org/obo/2020-25-08/vido.owl">
-    <Prefix name="" IRI="http://purl.obolibrary.org/obo/ido.owl#"/>
+    <Prefix name="" IRI="http://purl.obolibrary.org/obo/vido.owl"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
@@ -5574,7 +5574,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:OBI_0100026"/>
-        <Class abbreviatedIRI="obo:BFO_0000030"/>
+        <Class abbreviatedIRI="obo:BFO_0000040"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:OBI_0600058"/>
@@ -11587,7 +11587,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0000415</AbbreviatedIRI>
-        <Literal xml:lang="en">Host role borne by an object having a pathogen as part or an borne by an organism having a pathogen as part of its extended organism.</Literal>
+        <Literal xml:lang="en">Host role borne by an organism or acellular structure having a pathogen as part.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -12297,7 +12297,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0000450</AbbreviatedIRI>
-        <Literal xml:lang="en">Disposition borne by a material entity to establish localization in and result in formation of disorder in a host or immunocompetent members of the same species as the host.</Literal>
+        <Literal xml:lang="en">Disposition borne by a material entity to establish localization in or produce toxins that can be transmitted to an organism or acellular structure, either of which may form disorder in the entity or immunocompetent members of the entity’s species.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -13672,7 +13672,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0000504</AbbreviatedIRI>
-        <Literal xml:lang="en">Disorder that is part of an organism whose extended organism has some infectious agent or structure as part, which participates in the formation of infection.</Literal>
+        <Literal xml:lang="en">Disorder that is part of an extended organism which has an infectious pathogen part, that exists as a result of a process of formation of disorder initiated by the infectious pathogen.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -16008,7 +16008,7 @@ This should be pushed to an upper-level ontology.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:IDO_0000629</AbbreviatedIRI>
-        <Literal xml:lang="en">Role borne by an acellular structure containing a material entity other than the structure, or organism whose extended organism contains a material entity other than the organism, realized in use of that structure or organism as a site of reproduction or replication.</Literal>
+        <Literal xml:lang="en">Role borne by either an organism whose extended organism contains a distinct material entity, or an acellular structure containing a distinct material entity, realized in use of that structure or organism as a site of reproduction or replication.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
@@ -18428,7 +18428,7 @@ This should be pushed to an upper-level ontology.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:OBI_0100026</AbbreviatedIRI>
-        <Literal xml:lang="en">Object that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.</Literal>
+        <Literal xml:lang="en">A material entity that is an individual living system, such as animal, plant, bacteria or virus, that is capable of replicating or reproducing, growth and maintenance in the right environment. An organism may be unicellular or made up, like humans, of many billions of cells divided into specialized tissues and organs.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
@@ -20004,7 +20004,7 @@ binary, and takes no temporal argument.
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:VIDO_0001122</AbbreviatedIRI>
-        <Literal>Infectious disorder that exists as a result of a process of formation of disorder initiated by a virus or virus population.</Literal>
+        <Literal>Infectious disorder that exists as a result of a process of formation of disorder initiated by a virus.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
@@ -20309,7 +20309,7 @@ binary, and takes no temporal argument.
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:VIDO_0001363</AbbreviatedIRI>
-        <Literal>Acellular structure having some arrangement of viral components (e.g. viral capsid, viral DNA/RNA), that is clinically abnormal.</Literal>
+        <Literal>Acellular self-replicating organic structure having some clinically abnormal arrangement of viral components (e.g. viral capsid, viral DNA/RNA).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
@@ -20824,3 +20824,4 @@ binary, and takes no temporal argument.
 
 
 <!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
