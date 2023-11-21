@@ -20592,7 +20592,6 @@ binary, and takes no temporal argument.
         <Literal>antigenic drift</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:VSMO_</AbbreviatedIRI>
         <Literal>Planned process with the objective to produce information about some evaluant with the purpose of, if justified by the information gathered, managing, directing, or protecting.</Literal>
