@@ -6,7 +6,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://purl.obolibrary.org/obo/vido.owl"
-     versionIRI="http://purl.obolibrary.org/obo/2023-20-11/vido.owl">
+     versionIRI="http://purl.obolibrary.org/obo/2020-25-08/vido.owl">
     <Prefix name="" IRI="http://purl.obolibrary.org/obo/vido.owl"/>
     <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
     <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
