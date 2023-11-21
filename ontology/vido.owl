@@ -274,6 +274,9 @@
         <Class abbreviatedIRI="obo:GO_0019815"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="obo:GO_0020033"/>
+    </Declaration>
+    <Declaration>
         <Class abbreviatedIRI="obo:GO_0032502"/>
     </Declaration>
     <Declaration>
@@ -281,6 +284,9 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0042101"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:GO_0042783"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:GO_0044403"/>
@@ -1292,6 +1298,15 @@
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:VIDO_0001387"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001415"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001416"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="obo:VIDO_0001419"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="obo:VSMO_"/>
@@ -3724,6 +3739,14 @@
         <Class abbreviatedIRI="obo:GO_0006955"/>
     </SubClassOf>
     <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0020033"/>
+        <Class abbreviatedIRI="obo:GO_0042783"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:GO_0042783"/>
+        <Class abbreviatedIRI="obo:GO_0008150"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class abbreviatedIRI="obo:GO_0008150"/>
         <Class abbreviatedIRI="obo:BFO_0000015"/>
     </SubClassOf>
@@ -5848,6 +5871,18 @@
     <SubClassOf>
         <Class abbreviatedIRI="obo:VIDO_0001387"/>
         <Class abbreviatedIRI="obo:IDO_0000502"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001415"/>
+        <Class abbreviatedIRI="obo:GO_0008150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001416"/>
+        <Class abbreviatedIRI="obo:GO_0020033"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="obo:VIDO_0001419"/>
+        <Class abbreviatedIRI="obo:GO_0020033"/>
     </SubClassOf>
     <SubClassOf>
         <Class abbreviatedIRI="obo:VSMO_"/>
@@ -9713,6 +9748,26 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0020033</AbbreviatedIRI>
+        <Literal>Any process involved in the biological strategy of changing antigenic determinants on the surface that are exposed to another organism&apos;s immune system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0020033</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasNarrowSynonym"/>
+        <AbbreviatedIRI>obo:GO_0020033</AbbreviatedIRI>
+        <Literal>surface antigen variation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0020033</AbbreviatedIRI>
+        <Literal>antigenic variation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:GO_0032502</AbbreviatedIRI>
         <Literal>Biological process whose specific outcome is the progression of a functional, integrated, unit.</Literal>
     </AnnotationAssertion>
@@ -9755,6 +9810,26 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>obo:GO_0042101</AbbreviatedIRI>
         <Literal>T cell receptor complex</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:GO_0042783</AbbreviatedIRI>
+        <Literal>Process by which an organism or acellular structure avoids the effects of the host organism&apos;s immune response.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000412"/>
+        <AbbreviatedIRI>obo:GO_0042783</AbbreviatedIRI>
+        <Literal>http://purl.obolibrary.org/obo/go.owl</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="oboInOwl:hasExactSynonym"/>
+        <AbbreviatedIRI>obo:GO_0042783</AbbreviatedIRI>
+        <Literal>immune evasion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:GO_0042783</AbbreviatedIRI>
+        <Literal>evasion of host immune response</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
@@ -20456,6 +20531,67 @@ binary, and takes no temporal argument.
         <AbbreviatedIRI>obo:VIDO_0001387</AbbreviatedIRI>
         <Literal xml:lang="en">viral disease epidemic</Literal>
     </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001415</AbbreviatedIRI>
+        <Literal>Genetic recombination involving the exchange of entire genomic segments released into a host cell that is co-infected by two or more segmented RNA virus strains, resulting in the formation of novel viral progeny inheriting genomic segments from multiple parental strains.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001415</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AbbreviatedIRI>obo:VIDO_0001415</AbbreviatedIRI>
+        <Literal>A genomic segment is &quot;An independently replicating RNA molecule. RNA viruses can possess either a single segment (such that they are unsegmented) or multiple segments. Those with multiple segments may experience reassortment.&quot; [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3324781/]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001415</AbbreviatedIRI>
+        <Literal>viral reassortment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001416</AbbreviatedIRI>
+        <Literal>Antigenic variation involving a sudden and dramatic change in the antigenic determinants of a virus, owing to reassortment of viral genomic segments from segmented RNA virus strains of differing antigenic types, which results in failure of the immune system to recognize the new antigenic type.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001416</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:VIDO_0001416</AbbreviatedIRI>
+        <Literal>Book: Alan J. Cann, &quot;Principles of Molecular Virology&quot;; Book: N. J. Dimmock A. J. Easton and K. N. Leppard, &quot;Introduction to Modern Virology&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001416</AbbreviatedIRI>
+        <Literal>antigenic shift</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
+        <AbbreviatedIRI>obo:VIDO_0001419</AbbreviatedIRI>
+        <Literal>Antigenic variation involving the gradual accumulation of small alterations in the antigenic determinants of a virus, due to the gradual accumulation of minor mutations in the virus genome, which leads to decreased recognition of the virus by the immune system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000117"/>
+        <AbbreviatedIRI>obo:VIDO_0001419</AbbreviatedIRI>
+        <Literal>Shane Babcock</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="obo:IAO_0000119"/>
+        <AbbreviatedIRI>obo:VIDO_0001419</AbbreviatedIRI>
+        <Literal>Book: Alan J. Cann, &quot;Principles of Molecular Virology&quot;; Book: N. J. Dimmock A. J. Easton and K. N. Leppard, &quot;Introduction to Modern Virology&quot;.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>obo:VIDO_0001419</AbbreviatedIRI>
+        <Literal>antigenic drift</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="obo:IAO_0000115"/>
         <AbbreviatedIRI>obo:VSMO_</AbbreviatedIRI>
